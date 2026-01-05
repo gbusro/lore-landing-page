@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LORE.CARE - Produk Perawatan Premium</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-right">
+            <nav class="nav-menu">
+                <a href="#home">Home</a>
+                <a href="#products">Products</a>
+                <a href="#about">About</a>
+            </nav>
+            <div class="header-logo-right">
+                <img src="logoloreputih-min.png" alt="LORE.CARE Logo">
+            </div>
+        </div>
+    </header>
+    
+    <!-- Hero Section with Product Slider -->
+    <section class="hero">
+        <div class="hero-slider">
+            <!-- Slide 1 - Bubble Gum -->
+            <div class="hero-slide active">
+                <div class="hero-slide-content">
+                    <div class="hero-text">
+                        <span class="hero-badge">Best Seller</span>
+                        <h1 class="hero-product-title">LORE Antibacterial Fegrance</h1>
+                        <h2 class="hero-product-variant">Varian Bubble Gum</h2>
+                        <p class="hero-product-description">Parfum antibakteri dengan aroma bubble gum yang segar dan manis. Efektif menghilangkan bau tidak sedap pada sepatu, helm, dan topi dengan wangi yang tahan lama.</p>
+                        
+                        <div class="hero-features-list">
+                            <div class="hero-feature-item">
+                                <span class="hero-feature-icon">✓</span>
+                                <span>Menghilangkan Bau Sepatu</span>
+                            </div>
+                            <div class="hero-feature-item">
+                                <span class="hero-feature-icon">✓</span>
+                                <span>Efektif untuk Helm & Topi</span>
+                            </div>
+                            <div class="hero-feature-item">
+                                <span class="hero-feature-icon">✓</span>
+                                <span>Formula Antibakteri</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="hero-image">
+                        <img src="BUBBLEGUM.jpeg" alt="LORE Bubble Gum">
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Slide 2 - Coffee -->
+            <div class="hero-slide">
+                <div class="hero-slide-content">
+                    <div class="hero-text">
+                        <span class="hero-badge new">New</span>
+                        <h1 class="hero-product-title">LORE Antibacterial Fegrance</h1>
+                        <h2 class="hero-product-variant">Varian Coffee Aromatic</h2>
+                        <p class="hero-product-description">Parfum antibakteri dengan aroma kopi yang kaya dan menenangkan. Efektif menghilangkan bau tidak sedap pada sepatu, helm, dan topi dengan wangi kopi yang elegan.</p>
+                        
+                        <div class="hero-features-list">
+                            <div class="hero-feature-item">
+                                <span class="hero-feature-icon">✓</span>
+                                <span>Menghilangkan Bau Sepatu</span>
+                            </div>
+                            <div class="hero-feature-item">
+                                <span class="hero-feature-icon">✓</span>
+                                <span>Efektif untuk Helm & Topi</span>
+                            </div>
+                            <div class="hero-feature-item">
+                                <span class="hero-feature-icon">✓</span>
+                                <span>Formula Antibakteri</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="hero-image">
+                        <img src="COFFE.jpeg" alt="LORE Coffee Aromatic">
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Navigation Arrows -->
+            <button class="hero-nav-btn hero-prev" onclick="changeSlide(-1)">
+                <span>‹</span>
+            </button>
+            <button class="hero-nav-btn hero-next" onclick="changeSlide(1)">
+                <span>›</span>
+            </button>
+            
+            <!-- Slide Indicators -->
+            <div class="hero-indicators">
+                <span class="hero-indicator active" onclick="goToSlide(0)"></span>
+                <span class="hero-indicator" onclick="goToSlide(1)"></span>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Products Section -->
+    <section class="products-section" id="products">
+        <h2 class="section-title">Koleksi <span class="highlight">Produk Kami</span></h2>
+        
+        <div class="products-grid">
+            <!-- Product 1 - Bubble Gum -->
+            <div class="product-card large">
+                <div class="product-image">
+                    <img src="BUBBLEGUM.jpeg" alt="LORE Antibacterial Fegrance - Bubble Gum">
+                    <div class="product-badge">Best Seller</div>
+                </div>
+                <div class="product-info">
+                    <h3 class="product-title">LORE Antibacterial Fegrance</h3>
+                    <p class="product-subtitle">Varian Bubble Gum</p>
+                    <p class="product-description">Parfum antibakteri dengan aroma bubble gum yang segar dan manis. Efektif menghilangkan bau tidak sedap pada sepatu, helm, dan topi. Semprot langsung untuk hasil maksimal dan wangi tahan lama.</p>
+                    <div class="product-price">
+                        <span class="price-original">Rp 35.000</span>
+                        <span class="price-discount">Rp 29.000</span>
+                        <span class="discount-badge">Hemat 17%</span>
+                    </div>
+                    <a href="https://wa.me/6281234567890?text=Hai,%20saya%20tertarik%20dengan%20LORE%20Antibacterial%20Fegrance%20Varian%20Bubble%20Gum" class="product-button" target="_blank">
+                        Pesan Sekarang
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Product 2 - Coffee -->
+            <div class="product-card large">
+                <div class="product-image">
+                    <img src="COFFE.jpeg" alt="LORE Antibacterial Fegrance - Coffee Aromatic">
+                    <div class="product-badge new">New</div>
+                </div>
+                <div class="product-info">
+                    <h3 class="product-title">LORE Antibacterial Fegrance</h3>
+                    <p class="product-subtitle">Varian Coffee Aromatic</p>
+                    <p class="product-description">Parfum antibakteri dengan aroma kopi yang kaya dan menenangkan. Efektif menghilangkan bau tidak sedap pada sepatu, helm, dan topi. Semprot langsung untuk hasil maksimal dan wangi kopi yang elegan.</p>
+                    <div class="product-price">
+                        <span class="price-original">Rp 35.000</span>
+                        <span class="price-discount">Rp 29.000</span>
+                        <span class="discount-badge">Hemat 17%</span>
+                    </div>
+                    <a href="https://wa.me/6281234567890?text=Hai,%20saya%20tertarik%20dengan%20LORE%20Antibacterial%20Fegrance%20Varian%20Coffee%20Aromatic" class="product-button" target="_blank">
+                        Pesan Sekarang
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Application Examples Section -->
+    <section class="application-section">
+        <h2 class="section-title">Cara <span class="highlight">Penggunaan</span></h2>
+        <p class="section-subtitle">Semprot langsung pada sepatu, helm, atau topi untuk hasil maksimal</p>
+        
+        <div class="application-grid">
+            <div class="application-card">
+                <div class="application-image">
+                    <img src="helm.jpg" alt="Aplikasi LORE pada Helm">
+                </div>
+                <h3>Untuk Helm</h3>
+                <p>Semprot di bagian dalam helm terutama pada area busa untuk kesegaran maksimal</p>
+            </div>
+            
+            <div class="application-card">
+                <div class="application-image">
+                    <img src="sepatu.jpg" alt="Aplikasi LORE pada Sepatu">
+                </div>
+                <h3>Untuk Sepatu</h3>
+                <p>Semprot merata di bagian dalam sepatu untuk menghilangkan bau dan bakteri</p>
+            </div>
+            
+            <div class="application-card">
+                <div class="application-image">
+                    <img src="topi.jpg" alt="Aplikasi LORE pada Topi">
+                </div>
+                <h3>Untuk Topi</h3>
+                <p>Semprot pada bagian dalam topi untuk menghilangkan bau dan menjaga kesegaran</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- About Section -->
+    <section class="about-section" id="about">
+        <div class="about-content">
+            <div class="about-text">
+                <h2>Tentang <span class="highlight">LORE.CARE</span></h2>
+                <p>LORE.CARE adalah parfum antibakteri premium yang dirancang khusus untuk menghilangkan bau tidak sedap pada sepatu, helm, dan topi. Dengan formula antibakteri yang efektif, LORE memberikan perlindungan maksimal sekaligus wangi yang tahan lama.</p>
+                <p>Tersedia dalam 2 varian aroma pilihan: Bubble Gum yang segar dan manis, serta Coffee Aromatic yang elegan dan sophisticated. Semprot langsung pada area yang diinginkan untuk hasil terbaik.</p>
+                <a href="https://wa.me/6281234567890?text=Hai,%20saya%20ingin%20tahu%20lebih%20lanjut%20tentang%20LORE.CARE" class="cta-button-secondary" target="_blank">
+                    Hubungi Kami
+                </a>
+            </div>
+            <div class="about-image">
+                <img src="tentang lore.png" alt="Produk LORE.CARE - Antibacterial Fragrance">
+            </div>
+        </div>
+    </section>
+    
+    <!-- Product Modal/Popup -->
+    <div id="productModal" class="modal">
+        <div class="modal-overlay"></div>
+        <div class="modal-content">
+            <button class="modal-close">&times;</button>
+            <div class="modal-body">
+                <div class="modal-image-section">
+                    <img id="modalImage" src="" alt="Product">
+                    <span id="modalBadge" class="modal-product-badge">Best Seller</span>
+                </div>
+                <div class="modal-info-section">
+                    <h2 id="modalTitle">Product Title</h2>
+                    <p id="modalSubtitle" class="modal-subtitle">Variant</p>
+                    <p id="modalDescription" class="modal-description">Product description</p>
+                    
+                    <div class="modal-price-section">
+                        <div class="modal-price">
+                            <span id="modalPriceOriginal" class="price-original">Rp 35.000</span>
+                            <span id="modalPriceDiscount" class="price-discount">Rp 29.000</span>
+                        </div>
+                        <span id="modalDiscountBadge" class="discount-badge">Hemat 17%</span>
+                    </div>
+                    
+                    <a id="modalButton" href="#" class="modal-cta-button" target="_blank">
+                        <span>🛒</span> Pesan Sekarang via WhatsApp
+                    </a>
+                    
+                    <div class="modal-features">
+                        <div class="modal-feature-item">
+                            <span class="feature-icon-small">✓</span>
+                            <span>100% Original</span>
+                        </div>
+                        <div class="modal-feature-item">
+                            <span class="feature-icon-small">🚚</span>
+                            <span>Gratis Ongkir</span>
+                        </div>
+                        <div class="modal-feature-item">
+                            <span class="feature-icon-small">💯</span>
+                            <span>Garansi Uang Kembali</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-brand">
+                <img src="logoloreputih-min.png" alt="LORE.CARE Logo" class="footer-logo">
+                <h3>LORE.CARE</h3>
+                <p>Parfum Antibakteri untuk Sepatu, Helm & Topi</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <a href="#home">Home</a>
+                <a href="#products">Products</a>
+                <a href="#about">About</a>
+            </div>
+            <div class="footer-contact">
+                <h4>Hubungi Kami</h4>
+                <p>📱 WhatsApp: +62 812-3456-7890</p>
+                <p>📧 Email: info@lorecare.com</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 LORE.CARE. All rights reserved.</p>
+        </div>
+    </footer>
+    
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>

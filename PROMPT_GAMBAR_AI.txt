@@ -1,0 +1,70 @@
+PROMPT UNTUK MEMBUAT GAMBAR AI - LORE.CARE
+==============================================
+
+Anda perlu membuat 3 gambar untuk section "Cara Penggunaan" menggunakan AI Image Generator seperti:
+- Midjourney
+- DALL-E
+- Stable Diffusion
+- Leonardo.ai
+- atau AI generator lainnya
+
+UKURAN GAMBAR: 400x300 pixels atau rasio 4:3
+
+---
+
+GAMBAR 1: APLIKASI PADA SEPATU
+Prompt:
+"Product photography of antibacterial spray being applied inside a sneaker shoe, close-up shot, hand holding orange spray bottle spraying into the interior of a white athletic shoe, professional lighting, clean background, modern minimalist style, commercial product photo, high quality, 4k"
+
+Alternatif Prompt (Bahasa Indonesia untuk beberapa AI):
+"Foto produk spray antibakteri sedang disemprotkan ke dalam sepatu sneaker, close-up, tangan memegang botol spray orange menyemprot ke bagian dalam sepatu olahraga putih, pencahayaan profesional, background bersih, gaya minimalis modern, foto produk komersial, kualitas tinggi"
+
+Simpan sebagai: sepatu-aplikasi.jpg atau sepatu-aplikasi.png
+
+---
+
+GAMBAR 2: APLIKASI PADA HELM
+Prompt:
+"Product photography of antibacterial spray being applied inside a motorcycle helmet, close-up shot, hand holding orange spray bottle spraying into the interior padding of a black helmet, professional lighting, clean background, modern minimalist style, commercial product photo, high quality, 4k"
+
+Alternatif Prompt (Bahasa Indonesia):
+"Foto produk spray antibakteri sedang disemprotkan ke dalam helm motor, close-up, tangan memegang botol spray orange menyemprot ke bagian dalam busa helm hitam, pencahayaan profesional, background bersih, gaya minimalis modern, foto produk komersial, kualitas tinggi"
+
+Simpan sebagai: helm-aplikasi.jpg atau helm-aplikasi.png
+
+---
+
+GAMBAR 3: APLIKASI PADA TOPI
+Prompt:
+"Product photography of antibacterial spray being applied inside a baseball cap, close-up shot, hand holding orange spray bottle spraying into the interior of a black cap, professional lighting, clean background, modern minimalist style, commercial product photo, high quality, 4k"
+
+Alternatif Prompt (Bahasa Indonesia):
+"Foto produk spray antibakteri sedang disemprotkan ke dalam topi baseball, close-up, tangan memegang botol spray orange menyemprot ke bagian dalam topi hitam, pencahayaan profesional, background bersih, gaya minimalis modern, foto produk komersial, kualitas tinggi"
+
+Simpan sebagai: topi-aplikasi.jpg atau topi-aplikasi.png
+
+---
+
+TIPS UNTUK HASIL TERBAIK:
+1. Gunakan warna orange (#ff6b35) untuk botol spray agar sesuai dengan branding
+2. Background sebaiknya putih atau cream untuk konsistensi dengan website
+3. Pastikan gambar terlihat profesional dan clean
+4. Fokus pada aksi penyemprotan (spray action)
+5. Tangan yang memegang botol sebaiknya terlihat natural
+
+SETELAH GAMBAR DIBUAT:
+1. Simpan gambar di folder yang sama dengan file HTML (e:/web lore/)
+2. Update nama file di HTML:
+   - Ganti "https://via.placeholder.com/400x300/ff6b35/ffffff?text=Semprot+pada+Sepatu" 
+     dengan "sepatu-aplikasi.jpg"
+   - Ganti "https://via.placeholder.com/400x300/ff6b35/ffffff?text=Semprot+pada+Helm" 
+     dengan "helm-aplikasi.jpg"
+   - Ganti "https://via.placeholder.com/400x300/ff6b35/ffffff?text=Semprot+pada+Topi" 
+     dengan "topi-aplikasi.jpg"
+
+ALTERNATIF JIKA TIDAK BISA MEMBUAT GAMBAR AI:
+Anda bisa menggunakan foto produk asli dengan smartphone:
+1. Ambil foto produk LORE sedang disemprot ke sepatu/helm/topi
+2. Gunakan background putih/polos
+3. Pastikan pencahayaan bagus
+4. Edit dengan aplikasi seperti Canva atau Photoshop untuk hasil lebih profesional
